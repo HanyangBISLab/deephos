@@ -1,0 +1,24 @@
+# Spectra=[FILENAME]
+# Specifies path to the spectra file to search
+# Supported formats: *.mgf 
+Spectra= path/foo.mgf
+
+
+# TargetLib=[FILENAME]
+# Specifies path to the target spectral library file (*.mgf) to search
+TargetLib= path/TmtPhospho_deephos_library.mgf
+
+
+# DecoyLib=[FILENAME]
+# For FDR estimation, specifies path to the decoy spectral library file (*.mgf) to search
+DecoyLib= path/decoy_deephos_library.mgf
+
+
+# PeptTolerance=[VALUE]
+# Sets a precursor mass tolerance in ppm. (Default value is 10)
+PeptTolerance=10
+
+
+# FragTolerance=[MASS]
+# Sets a fragment ion mass tolerance in dalton. (Default value is 0.02)
+FragTolerance=0.02
