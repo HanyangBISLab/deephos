@@ -1,6 +1,7 @@
 # Spectra=[FILENAME]
-# Specifies path to the spectra file to search
+# Specifies path to the spectra file or directory to search
 # Supported formats: *.mgf 
+# Given a directory, all spectra files in it are searched.
 Spectra= path/foo.mgf
 
 
@@ -18,6 +19,10 @@ DecoyLib= path/decoy_deephos_library.mgf
 # Sets a precursor mass tolerance in ppm. (Default value is 10)
 PeptTolerance=10
 
+# C13Isotope=[MIN],[MAX]
+# Sets the numbers of C13 (or isotope error) allowed in peptide masses. (Default values are 0,2)
+# 1.00235 Da is used as an isotope spacing
+C13Isotope=0,2
 
 # FragTolerance=[MASS]
 # Sets a fragment ion mass tolerance in dalton. (Default value is 0.02)
