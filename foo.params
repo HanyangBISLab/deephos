@@ -1,6 +1,6 @@
 # Spectra=[FILENAME]
 # Specifies path to the spectra file or directory to search
-# Supported formats: *.mgf 
+# Supported formats: *.mgf, *.pkl, *.dta, *.ms2, *mzXML, *mzML 
 # Given a directory, all spectra files in it are searched.
 Spectra= path/foo.mgf
 
