@@ -9,10 +9,12 @@ Improving the sensitivity and specificity of TMT-labeled phosphopeptide identifi
 
 ##################################################################
 
-2. In silico spectral library predicted by Deephos can be downloaded from https://drive.google.com/file/d/1z7wacIIrRCgwQt3HxSOanAPDVY-I-Lj_/view?usp=sharing.
-- Unzip the downloaded file. There are two files, TmtPhospho_deephos_library.mgf and decoy_deephos_library.mgf.
-- TmtPhospho_deephos_library.mgf: For ~8,000 human phosphoproteins annotated in UniProt, trypsin-digested peptides with up to 1 missed cleavage were in silico generated and STY-containing peptides were modified allowing up to two phosphorylation sites. Deephos predicted the fragment ions of all the theoretical phosphopeptides assuming precursor charge states of 2+, 3+ and 4+, resulting 13,156,857 predicted MS/MS spectra.
-- decoy_deephos_library.mgf for target-decoy search: Deephos predicts fragment ions of reverse peptides generated from target peptides to construct decoy spectra.
+2. In silico spectral library predicted by Deephos
+- TMT(229.162932) library can be downloaded from https://drive.google.com/file/d/1EtKatZOiDNMCNtr1M2d66hOAKZUzrPg0/view?usp=share_link
+- TMTpro(304.207146) from https://drive.google.com/file/d/1L_FyZz7fjzYx7Ka9akc2dbZvRnmyYzNg/view?usp=share_link
+- Unzip the downloaded file. There are two files, target_tmt###.dpslib and decoy_tmt###.dpslib
+- target_tmt###.dpslib: For ~8,000 human phosphoproteins annotated in UniProt, trypsin-digested peptides with up to 1 missed cleavage were in silico generated and STY-containing peptides were modified allowing up to two phosphorylation sites. Deephos predicted the fragment ions of all the theoretical phosphopeptides assuming precursor charge states of 2+, 3+ and 4+, resulting 13,156,857 predicted MS/MS spectra.
+- decoy_tmt###.dpslib for target-decoy search: Deephos predicts fragment ions of reverse peptides generated from target peptides to construct decoy spectra.
 
 ##################################################################
 
