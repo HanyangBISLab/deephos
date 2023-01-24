@@ -20,6 +20,8 @@ Improving the sensitivity and specificity of TMT-labeled phosphopeptide identifi
 
 3. FDR Analysis
 - Command: java -Xmx3G -cp deephos.jar deephos.TDA <-options>
-- Options: 1) -i <path to search result file, required>, 2) -fdr <0.00 ~ 1.00, required>, 3) -o <path to fdr-filtered id file, optional>
+- Options: 1) -i <path to search result file or directory, required>, Given a directory, the results files in it are analyzed all together.
+           2) -fdr <0.00 ~ 1.00, required>, 
+           3) -o <path to fdr-filtered id file, optional>
 - Example1: java -Xmx3G -cp deephos.jar deephos.TDA -i results.tsv -fdr 0.01 (*fdr0.01_id.tsv file is generated)
 - Example2: java -Xmx3G -cp deephos.jar deephos.TDA -i results.tsv -o finalResult.tsv -fdr 0.01
