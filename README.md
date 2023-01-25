@@ -26,3 +26,8 @@ Improving the sensitivity and specificity of TMT-labeled phosphopeptide identifi
 	-o <path to fdr-filtered id file, optional>
 - Example1: java -Xmx3G -cp deephos.jar deephos.TDA -i results.tsv -fdr 0.01 (*fdr0.01_id.tsv file is generated)
 - Example2: java -Xmx3G -cp deephos.jar deephos.TDA -i results.tsv -o finalResult.tsv -fdr 0.01
+
+##################################################################
+
+4. Citation
+- Na S, Choi H, Paek E. Deephos: Predicted spectral database search for TMT-labeled phosphopeptides and its false discovery rate estimation. Bioinformatics, 38(11), 2980-2987, 2022.
